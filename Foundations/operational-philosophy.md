@@ -16,7 +16,7 @@ Operational success is not measured by activity level. It is measured by the qua
 
 Noise creates risk. Insight creates advantage.
 
-Purpose Driven Actions
+## Purpose Driven Actions
 
 Every action must have a clear purpose. Do not scan because you can. Do not dump credentials because it is possible. Do not pivot without a reason. Purpose driven operations reduce risk and increase mission clarity.
 
@@ -53,7 +53,7 @@ Assumptions are dangerous. Operators must rely on data, logs, observed behavior,
 
 Guessing is not tradecraft.
 
-Minimal Footprint
+## Minimal Footprint
 
 The goal is to leave as little trace as possible. This applies to files, logs, payloads, command history, registry artifacts, and network traffic. A minimal footprint reduces the chance of detection and improves the realism of the engagement.
 
