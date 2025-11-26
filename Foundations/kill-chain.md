@@ -1,76 +1,59 @@
+## kill-chain
 
-# methodology
+The kill chain describes the sequence of steps an adversary follows during an attack. It helps red teamers structure operations, identify opportunities for stealth, and understand how real threats progress through a target environment. A clear kill chain provides context for planning, execution, and reporting.
 
-Red Team methodology is a structured framework that guides how an operation is planned, executed, and concluded. It ensures every action has purpose, every step supports the mission, and the team operates with consistency and discipline. A red team does not improvise its way through a target. It follows a clear process designed to simulate credible threat behavior.
+The goal of the kill chain is not to force a rigid structure but to give operators a mental model for how attacks naturally evolve. Each stage has its own risks, its own visibility, and its own operational decisions.
 
-## Core Principle
+## Reconnaissance
 
-A solid methodology is built on principles that shape every phase of the engagement. The most important principles are:
+The attacker gathers information about the target. This includes domains, network ranges, employees, technologies, cloud services, and external exposure. Recon shapes every later stage. Good intelligence enables realistic tradecraft while poor intelligence leads to noisy or ineffective actions.
 
-Operational security. Every action must minimize exposure. Infrastructure, communication, payloads, and operator behavior must avoid detection.
+This stage is usually passive to reduce detection. Active probing is used only when necessary and within the engagement scope.
 
-Realistic threat behavior. The goal is not to test everything. The goal is to emulate a capable adversary within defined constraints.
+## Weaponization
 
-Mission focus. The team does not chase vulnerabilities. It pursues impact that aligns with the client’s objectives.
+The attacker prepares tools, payloads, infrastructure, and delivery mechanisms. This may include phishing templates, macro documents, exploits, redirectors, C2 servers, and operational personas.
 
-Stealth and persistence. Maintaining access without alerting defenders is more valuable than obtaining loud, short lived results.
+Weaponization is about aligning all tools with the intelligence gathered earlier. Payloads must match the environment, avoid detection, and support post exploitation objectives.
 
-Repeatability. Every step should be reproducible and based on documented processes instead of guesswork.
+## Delivery
 
-## The Red Team Lifecycle
+The attacker delivers the payload to the target. Common delivery paths include phishing emails, malicious documents, web exploitation, cloud abuse, supply chain mechanisms, or physical access.
 
-The modern red team lifecycle follows a predictable structure. Each stage builds on the previous one and contributes to the mission.
+Delivery must balance effectiveness and stealth. A high success rate means nothing if the method triggers alarms that compromise the entire operation.
 
-Planning. Define objectives, scope, constraints, intelligence needs, and acceptable risk levels.
+## Exploitation
 
-Reconnaissance. Collect information passively and actively to build a full picture of the target environment, its people, technology, and potential attack paths.
+The delivered payload is executed. This stage may involve user interaction, exploit triggers, misconfigurations, or authentication weaknesses.
 
-Initial access. Use techniques such as social engineering, phishing, vulnerability exploitation, cloud abuse, or misconfigurations to gain a foothold.
+The goal is to gain initial code execution or authenticated access. Timing, payload design, and user behavior all play a role in this stage.
 
-Post exploitation. Move within the environment, discover assets, escalate privileges, and establish persistence while remaining covert.
+## Installation
 
-Lateral movement. Expand access across the network by leveraging credentials, tokens, protocol abuse, or trust relationships.
+The attacker establishes a foothold on the target system. This commonly includes installing an agent, setting up persistence, or creating initial credentials. Installation must be as quiet as possible to avoid immediate detection.
 
-Impact simulation. Execute actions that demonstrate the potential real world consequences of an attacker such as data access, account compromise, domain dominance, or critical system takeover.
+A stable foothold enables deeper movement inside the environment.
 
-Reporting. Document the attack paths, key findings, business impact, and recommended remediations in a clear and professional format.
+## Command and Control
 
-## Threat Emulation vs Penetration Testing
+The attacker connects back to controlled infrastructure. The communication channel must be reliable, encrypted, and disguised to blend with normal traffic. C2 operations must consider endpoint visibility, network monitoring, and behavioral detection.
 
-Penetration testing focuses on finding vulnerabilities and proving they are exploitable. Red teaming focuses on achieving operational objectives without detection. A penetration test is coverage oriented. A red team engagement is objective oriented.
+This stage defines how operators interact with the target and maintain long term access.
 
-Penetration tests prioritize depth on individual systems. Red teams prioritize silent progression across the environment.
+## Lateral Movement
 
-Penetration tests document vulnerabilities. Red teams document attack paths, operational insights, and defensive failures.
+The attacker expands control through the environment. This includes credential theft, token abuse, remote execution, and pivoting through trust relationships. The goal is to reach higher value systems with minimal noise.
 
-## Intelligence Driven Operations
+Lateral movement is where detection risk increases the most. Every action must follow strict OPSEC rules.
 
-A professional red team does not attack blindly. It adapts techniques based on intelligence gathered about the target. This includes their technologies, defenses, user behavior patterns, cloud usage, external exposure, and organizational structure.
+## Actions on Objectives
 
-Intelligence influences payload choice, infrastructure design, phishing themes, and post exploitation strategy. The more accurate the intelligence, the more realistic and successful the simulation.
+The attacker executes actions that demonstrate real world impact. Examples include data access, account takeover, domain dominance, cloud compromise, or exfiltration. This final stage shows what a motivated adversary could achieve.
 
-Adversary Simulation Levels
+Actions must align with engagement objectives and avoid unnecessary risk.
 
-Red teams often choose between different levels of threat emulation depending on the engagement goals.
+Operational Use for Red Teams
 
-Basic threat simulation focuses on common techniques and typical attacker behavior.
+The kill chain is a guide, not a rulebook. Red teams use it to structure operations, assess progress, and understand defensive detection points. Each stage provides opportunities for stealth, alternative paths, and controlled escalation.
 
-Intermediate simulation models organized threat groups with moderate sophistication.
-
-Advanced simulation emulates nation state level actors with strong operational security, custom tooling, layered persistence, and long term stealth.
-
-Each level requires different infrastructure, payload tradecraft, and operational discipline.
-
-## Operational Discipline
-
-A methodology is useless without discipline. Red team operators must follow strict rules to avoid exposure.
-
-Do not reuse infrastructure or payloads without checking their OPSEC.
-Do not execute high noise techniques when stealth is required.
-Do not collect unnecessary data.
-Do not move without a reason or understanding of the target environment.
-Every action should support the mission and reduce risk.
-
-## Conclusion
-
-A strong methodology transforms red teaming from random hacking into a controlled and measurable operation. It ensures the team acts with purpose, avoids unnecessary exposure, and delivers results that accurately reflect real adversary capabilities. This methodology is the foundation of every advanced red team engagement and the core of everything else in this repository
+A disciplined approach to the kill chain enables realistic threat simulation and reduces operational mistakes
