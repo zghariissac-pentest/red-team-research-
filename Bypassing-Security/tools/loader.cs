@@ -3,8 +3,6 @@ using System.Runtime.InteropServices;
 
 class MemoryLoader
 {
-    // هذا مثال تعليمي فقط لتوضيح فكرة memory operations
-    // بدون أي تنفيذ فعلي أو تحميل لأي كود خارجي
 
     [DllImport("kernel32")]
     private static extern IntPtr VirtualAlloc(
