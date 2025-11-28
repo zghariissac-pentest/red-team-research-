@@ -77,7 +77,7 @@ help others who learn the same topics
 
 This repo will continue to evolve as I learn more and expand the content.
 
-Contributing
+#### Contributing
 
 This is mainly a personal research project, but if you want to suggest improvements, corrections, or ideas, feel free to open an issue or a pull request.
 Just keep the style clean and the explanations simple.
