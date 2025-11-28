@@ -54,7 +54,7 @@ Books, cheatsheets, glossary, case studies.
 
 Each folder contains Markdown files plus custom scripts where needed.
 
-Tools
+### Tools
 
 Some sections include small tools I wrote for learning purposes. They are not “real world ready”, but they show concepts, automation ideas, and basic offensive coding skills. You can use them as templates to build your own tools later.
 
