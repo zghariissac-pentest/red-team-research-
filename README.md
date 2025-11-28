@@ -15,9 +15,9 @@ If you’re experienced, you can jump to the section you want and use it as a re
 This repo is not meant to break laws or encourage illegal actions. Everything here is for learning offensive security in ethical, legal, controlled environments. I do not provide real-world attack data or anything harmful.
 Everything is educational.
 
-Structure
+## Structure
 
-The repository is divided into logical stages:
+## The repository is divided into logical stages:
 
 ### 0‑Foundations
 Core concepts, methodology, mindset, frameworks, ethics.
@@ -58,7 +58,7 @@ Tools
 
 Some sections include small tools I wrote for learning purposes. They are not “real world ready”, but they show concepts, automation ideas, and basic offensive coding skills. You can use them as templates to build your own tools later.
 
-#### Why I built this
+## Why I built this
 
 I wanted one place where I can:
 
