@@ -1,4 +1,4 @@
-# Red Teaming Research
+# Red Teaming Research (not completed yet)
 
 This repository is my personal offensive security research project. I am an 18‑year‑old learner who is passionate about red teaming, cyber operations, and understanding how real attacks work behind the scenes. Everything you see here comes from my own studies, experiments, and practice.
 
