@@ -1,8 +1,7 @@
 # Red Teaming Research
 
-Welcome to my personal red teaming research repository. This project is the result of months of studying, testing, breaking things, rebuilding them, and trying to understand how real offensive security works from the ground up. It is not a copy of any course or book. Everything here is based on my own notes, experiments, and understanding.
+This repository is my personal offensive security research project. I am an 18‑year‑old learner who is passionate about red teaming, cyber operations, and understanding how real attacks work behind the scenes. Everything you see here comes from my own studies, experiments, and practice.
 
-This repo is built to be clean, structured, and fully beginner‑friendly while still going deep into advanced offensive security topics. My goal is to create a complete reference for anyone who wants to learn red teaming the right way, with real methodology, strong OpSec, and practical understanding.
 
 ## What this repo is
 
