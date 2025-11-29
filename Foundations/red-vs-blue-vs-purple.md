@@ -1,26 +1,26 @@
-# red-vs-blue-vs-purple.md
+# red vs blue vs purple
 
-Red, Blue, and Purple Teams represent three different perspectives in security operations. Understanding the differences is essential before diving into any offensive or defensive engagement. Each team has its own mission, its own mindset, and its own operational style.
+Red, Blue, and Purple teams represent three different perspectives in security operations. Understanding the differences is essential before diving into any offensive or defensive engagement. Each team has its own mission, its own mindset, and its own operational style.
 
 ## Red Team
 
-The Red Team simulates real world adversaries. Its purpose is to challenge the organization’s defenses by acting like a capable attacker. The focus is not on breaking everything but on achieving objectives while avoiding detection. A red team engagement is driven by intelligence, stealth, and operational discipline.
+The Red Team simulates real world adversaries. Its purpose is to challenge the organization’s defenses by acting like a capable attacker. The focus isn't on breaking everything but on achieving objectives while avoiding detection. A red team engagement is driven by intelligence, stealth, and operational discipline.
 
 Red teams test people, processes, and technology. They rely on infrastructure, evasion techniques, social engineering, and post exploitation tradecraft. Their job is to show how an attacker could compromise critical assets and what the real impact would be.
 
 A red teamer thinks like a threat actor. They plan operations, avoid unnecessary noise, and build attack paths instead of chasing isolated vulnerabilities.
 
-## Blue Team
+## Blue team
 
-The Blue Team defends the organization. Its mission is to detect, prevent, and respond to attacks. Blue teams manage logs, monitoring tools, endpoint protection, network defenses, and incident response procedures. They must understand attacker behavior to identify anomalies and contain threats before they cause damage.
+The Blue team defends the organization. Its mission is to detect, prevent, and respond to attacks. Blue teams manage logs, monitoring tools, endpoint protection, network defenses, and incident response procedures. They must understand attacker behavior to identify anomalies and contain threats before they cause damage.
 
-A strong blue team builds layered defenses and continuously adapts to new techniques. Their value is not only in blocking attacks but in understanding how attackers operate and improving the overall resilience of the environment.
+A strong blue team builds layered defenses and continuously adapts to new techniques. Their value isn't only in blocking attacks but in understanding how attackers operate and improving the overall resilience of the environment.
 
 While the red team focuses on stealth and impact, the blue team focuses on detection and resilience.
 
-## Purple Team
+## Purple team
 
-The Purple Team bridges the gap between red and blue. Its purpose is not to compete but to collaborate. A purple team engagement is a structured exercise where offensive actions are performed in coordination with the defenders to improve both sides.
+The purple team bridges the gap between red and blue. Its purpose isn't to compete but to collaborate. A purple team engagement is a structured exercise where offensive actions are performed in coordination with the defenders to improve both sides.
 
 The red team shows how an attack works, the blue team shows how it is detected, and together they adjust controls, alerts, and procedures. The goal is rapid learning and measurable improvement.
 
