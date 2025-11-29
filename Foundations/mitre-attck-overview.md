@@ -1,8 +1,8 @@
-# mitre-attck-overview
+# mitre attck overview
 
 MITRE ATT&CK is a globally recognized framework that documents real world adversary behavior. It organizes attacker techniques based on how they operate in actual intrusions. For red teamers, ATT&CK provides a common language, a structured view of the attack lifecycle, and a reference for building realistic operations.
 
-ATT&CK does not describe tools. It describes behavior. It explains what attackers do, how they do it, and why each technique matters. Red teams use it to design tradecraft, map findings, and communicate clearly with defenders.
+ATT&CK doesn't describe tools. It describes behavior. It explains what attackers do, how they do it, and why each technique matters. Red teams use it to design tradecraft, map findings, and communicate clearly with defenders.
 
 ## What ATT&CK Represents
 
