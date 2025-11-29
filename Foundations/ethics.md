@@ -1,4 +1,4 @@
-## legal-ethics.md
+## legal ethics
 
 Legal and ethical considerations form the foundation of every red team operation. Offensive security work involves actions that would be illegal without proper authorization. A professional red team must operate within strict boundaries to ensure safety, legality, and client trust.
 
