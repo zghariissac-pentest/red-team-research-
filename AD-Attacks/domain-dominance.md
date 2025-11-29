@@ -1,4 +1,4 @@
-# domain-dominance
+# domain dominance
 ## What domain dominance means
 
 Domain dominance is when an attacker reaches a level where they control the entire domain permanently, not just a temporary privileged account.
