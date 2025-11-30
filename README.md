@@ -4,7 +4,7 @@
 
 This repository is my personal offensive security research project. I’m an 18‑year‑old learner passionate about red teaming, cyber operations, and understanding how real attacks work behind the scenes. Everything here comes from my own studies, experiments, and hands‑on practice.
 
-## 📌 What This Repository Is
+## 📌 What this repository is
 
 A structured, long‑term learning project documenting every stage of a red team operation, including:
 
@@ -19,12 +19,12 @@ Clean, simple explanations without unnecessary complexity
 New learners can follow it in order.
 Experienced users can jump to any section as a reference.
 
-## 🚫 What This Repository Is Not
+## 🚫 What this repository is not
 
 This project doesn't promote illegal activity.
 All material is for educational use only in controlled, legal environments.
 
-# 📂 Repository Structure
+# 📂 Repository structure
 
 | Folder                  | Purpose                               |
 | ----------------------- | ------------------------------------- |
