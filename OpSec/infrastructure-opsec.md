@@ -1,10 +1,10 @@
-# Infrastructure OpSec
+# Infrastructure OPSEC
 
-Infrastructure OpSec focuses on minimizing the technical fingerprints that link your operational assets back to you or your team. Every server, domain, and communication channel you use becomes part of your attack surface. Red team operations rely on clean, compartmentalized, and deniable infrastructure. The goal is to remove exploitable patterns and avoid detectable behavior that creates attribution.
+Infrastructure opsec focuses on minimizing the technical fingerprints that link your operational assets back to you or your team. Every server, domain, and communication channel you use becomes part of your attack surface. Red team operations rely on clean, compartmentalized, and deniable infrastructure. The goal is to remove exploitable patterns and avoid detectable behavior that creates attribution.
 
-Good infrastructure OpSec is not about hiding forever. It is about reducing correlation during the operation window and eliminating anything that ties separate phases together. Mistakes in this stage are usually irreversible because infrastructure artifacts are long‑lived and easily logged by external systems.
+Good infrastructure OpSec isn't about hiding forever. It is about reducing correlation during the operation window and eliminating anything that ties separate phases together. Mistakes in this stage are usually irreversible because infrastructure artifacts are long‑lived and easily logged by external systems.
 
-## Infrastructure Lifecycle
+## Infrastructure lifecycle
 
 Operational infrastructure follows a predictable lifecycle. Managing this cycle properly ensures nothing survives longer than it should and no asset remains linked to multiple operations.
 
@@ -16,7 +16,7 @@ Decommissioning
 
 Provisioning must be clean, anonymous, and isolated from your personal identity. Configuration must follow strict minimalism to avoid noisy services. Use must follow the operational purpose only with no out‑of‑scope actions. Rotation must happen before exposure accumulates. Decommissioning must include wiping logs and never reusing assets.
 
-## Isolation Principles
+## Isolation principles
 
 Infrastructure isolation is the core of OpSec. Never mix identities, tools, or objectives on the same asset. Isolation prevents correlation attacks where defenders connect multiple actions back to a single origin.
 
@@ -24,7 +24,7 @@ Identity isolation means using separate payment methods, separate accounts, and 
 
 Operational infrastructure should be treated as consumable resources. Expect every component to be burned and design the environment so losing a single asset does not compromise the full operation.
 
-## VPS Selection Criteria
+## VPS selection criteria
 
 A VPS provider becomes part of your attribution chain. Picking the wrong provider or using the wrong payment method can expose the entire project. Providers differ in logging behavior, verification requirements, and traffic scrutiny.
 
@@ -32,7 +32,7 @@ A good operational VPS has minimal identity verification, accepts anonymous or l
 
 Never use a single provider across all phases. Rotate providers for redirectors, staging servers, and C2 nodes. Using the same company for everything creates recognizable behavioral patterns.
 
-## Clean Networking
+## Clean networking
 
 Network traffic is what defenders see first. Clean networking reduces noise and limits artifacts that may correlate actions. Infrastructure should never reveal default configurations or unnecessary services.
 
@@ -40,7 +40,7 @@ Remove default banners, disable unused ports, and minimize exposed services. Do 
 
 Outbound traffic must also stay clean. Avoid updating packages during operations because update mirrors leak information about the server’s region and behavior. Avoid external API calls that create logs on third‑party services. Avoid using infrastructure for scanning unless it is designed for that role.
 
-## Domain OpSec
+## Domain opsec
 
 Domains are often the most visible part of your infrastructure. Bad domain choices create instant suspicion. Good domain OpSec focuses on blending in.
 
@@ -48,7 +48,7 @@ Pick domains that match the theme of the target or look like normal business dom
 
 Do not reuse domains across operations. Never reuse subdomains. Keep DNS records minimal and consistent. Avoid fast-changing DNS values that look suspicious. Make redirection chains clean and simple, without unnecessary layers.
 
-## Access Hygiene
+## Access hygiene
 
 How you access infrastructure is part of your fingerprint. Most attribution happens because operators interact with servers in predictable or sloppy ways.
 
@@ -56,7 +56,7 @@ Never connect directly from a home IP. Never reuse SSH keys or agent configurati
 
 Log in with unique users per infrastructure tier. Disable password logins. Restrict SSH to known operational entry points. Never run commands that reveal your local time zone or language settings.
 
-## Tooling Separation
+## Tooling separation
 
 Tools leak metadata. Their execution patterns, filenames, and behaviors can reveal the operator. Infrastructure OpSec requires separating tools across roles.
 
@@ -64,7 +64,7 @@ Recon servers should only run scanning tools. Staging servers should only serve 
 
 Use containerized environments when possible to avoid contaminating the host system with artifacts. Build tools in isolated environments, not on operational servers. Keep versions consistent and remove compilation traces.
 
-## Logging and Artifacts
+## Logging and artifacts
 
 Logs accumulate silently. Many operators forget they exist until it is too late. Infrastructure OpSec requires minimizing logs at every layer.
 
@@ -72,7 +72,7 @@ Disable unneeded logging services. Rotate logs aggressively. Store no long-term 
 
 Third-party logs are harder to control. DNS logs, CDN logs, and provider logs can persist long after you delete the server. Reduce exposure by minimizing the external services involved in the operation.
 
-## Burn Strategy
+## Burn strategy
 
 Every operation should include a clean burn strategy. Infrastructure must be disposable. Once exposed, it should be immediately shut down and wiped.
 
