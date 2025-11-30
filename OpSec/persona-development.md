@@ -1,10 +1,10 @@
-## Persona Development
+## Persona development
 
 Developing operational personas is a critical part of red team OPSEC. A persona is a digital identity that represents a believable, consistent, and compartmentalized operator or entity. Personas allow red teamers to interact with targets, infrastructure, and tools without revealing real identities.
 
 A strong persona blends in, reduces attribution risk, and ensures the operation appears legitimate. Every communication, account, and online presence should match the persona’s story and environment.
 
-## Core Principles
+## Core principles
 
 ### Believability
 The persona must feel real. This includes name, email, social presence, work history, and online activity patterns. Unrealistic details are easily flagged and compromise stealth.
@@ -15,21 +15,21 @@ All actions taken by the persona should align with its story. Use consistent use
 ### Compartmentalization
 Different operations require different personas. Never reuse a persona across unrelated engagements. One compromised persona should not reveal others.
 
-### Minimal Exposure
+### Minimal exposure
 Provide only what is necessary. Extra information increases the chance of correlation or accidental exposure. Keep the footprint clean and controlled.
 
-## Persona Components
+## Persona components
 
-### Digital Identity
+### Digital identity
 Includes name, email, social accounts, payment methods, and profile pictures. Must be internally consistent and plausible.
 
-### Technical Identity
+### Technical identity
 IP range, device types, operating system fingerprints, browser versions, and toolsets must match the persona’s story.
 
-### Behavioral Patterns
+### Behavioral patterns
 Activity timing, communication style, content topics, and operational habits must follow a coherent pattern. Random or inconsistent behavior increases detection risk.
 
-### Persona Lifecycle
+### Persona lifecycle
 
 Creation Build a complete persona profile aligned with operational goals.
 
@@ -39,7 +39,7 @@ Operation  Use the persona consistently during engagement. Monitor for anomalies
 
 Retirement  Once the operation is over, remove all traces, accounts, and linked infrastructure. Avoid reuse.
 
-## Operational Use
+## Operational use
 
 Personas are used for social engineering, account creation, communication with targets, phishing campaigns, and interaction with operational infrastructure. They provide plausible deniability and reduce attribution to real operators.
 
