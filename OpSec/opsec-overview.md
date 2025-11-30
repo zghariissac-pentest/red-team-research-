@@ -4,17 +4,17 @@ Operational Security (OPSEC) is the most critical discipline in red team operati
 
 OPSEC is not a checklist. It is a continuous mindset. Every action, every tool, every communication, and every piece of infrastructure must be evaluated through the lens of risk and detectability.
 
-## Core Principles of Red Team OPSEC
+## Core principles of red team OPSEC
 
 OPSEC is built on a set of fundamental principles that guide decision making during the entire engagement.
 
-## Reduce Exposure
+## Reduce exposure
 
 The less you expose to defenders, the safer the operation remains. This includes infrastructure IPs, domains, operator fingerprints, payload signatures, and behavioral patterns. Red teams must always limit what defenders can observe or analyze.
 
 Exposure creates opportunities for detection and investigation. Minimizing exposure preserves stealth.
 
-## Limit Operational Identifiers
+## Limit operational identifiers
 
 Every operator has patterns. Typing habits, favorite tools, common commands, and predictable behaviors can all become identifiers. Red teamers must avoid personal habits and follow standardized procedures to reduce unique fingerprints.
 
@@ -26,43 +26,43 @@ No piece of the operation should reveal the entire picture. Infrastructure, tool
 
 Compartmentalization limits damage and keeps the operation resilient.
 
-## Control the Information You Reveal
+## Control the information You reveal
 
 Defenders analyze everything: network traffic, endpoint logs, behavioral anomalies, and cloud metadata. Red teams must assume that every observable action will be studied. OPSEC involves controlling what defenders can see and shaping those observations to appear normal.
 
 If something looks suspicious, defenders investigate. If it looks normal, it blends in.
 
-## Predict Defender Visibility
+## Predict defender visibility
 
 OPSEC requires understanding how defenders detect attacks. This includes endpoint agents, SIEM rules, EDR behavior, network inspection, anomaly detection, and cloud logging. Operators must anticipate which actions will create logs or alerts.
 
 Knowing defender visibility allows operators to select the safest path.
 
-## Avoid Repetition
+## Avoid repetition
 
 Repeated patterns create signatures. Running the same commands on every host, using the same C2 profile, or relying on the same payload structure increases the chance of detection.
 
 Variation is essential for long term stealth.
 
-## Tool and Payload Discipline
+## Tool and payload discipline
 
 Every tool must be evaluated before use. Red teams must know how a tool behaves, what artifacts it creates, and how it interacts with the system. Unverified tools are dangerous and can break environments or trigger detection immediately.
 
 Payloads must be custom, controlled, and aligned with environment specifics.
 
-## Secure Infrastructure
+## Secure infrastructure
 
 OPSEC extends to infrastructure. Domains, VPS providers, redirectors, certificates, and communication patterns must all appear legitimate. Poorly chosen infrastructure reveals malicious intent and allows defenders to blacklist the operation early.
 
 Infrastructure OPSEC is as important as endpoint OPSEC.
 
-## Deception and Noise Control
+## Deception and noise control
 
 Sometimes the best OPSEC is avoiding visibility entirely. Other times, deception can be used to create false patterns or distract defenders. Skilled operators know when to blend in and when to mislead.
 
 Noise should be intentional, not accidental.
 
-## Continuous Assessment
+## Continuous assessment
 
 OPSEC is never finished. Operators must constantly evaluate new information, adapt to defender behavior, and adjust techniques when risk increases. A static OPSEC plan fails in dynamic environments.
 
