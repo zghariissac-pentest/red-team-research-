@@ -41,7 +41,7 @@ Malicious attachments
 
 Attachments work when the target expects documents in daily workflow.
 
-### Common formats:
+## Common formats:
 
 Office macros
 
@@ -73,7 +73,7 @@ Exposed services exploitation
 
 Public-facing services often reveal vulnerabilities.
 
-#### Common examples:
+### Common examples:
 
 VPN gateways
 
@@ -140,7 +140,7 @@ Self-validate environment
 
 Fail silently if blocked
 
-Opsec
+## Opsec
 
 Do not reuse payloads across engagements.
 Avoid exposing your real infrastructure.
@@ -178,6 +178,6 @@ Network fingerprinting exposing the C2
 
 User suspicion breaking the chain
 
-Conclusion
+## Conclusion
 
 Initial access is the foundation of the entire red team operation. A weak or noisy entry compromises the mission before it begins. Careful preparation, realistic delivery, and disciplined opsec are essential to establish a reliable and invisible foothold in the target network
