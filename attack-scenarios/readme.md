@@ -21,13 +21,13 @@ The goal of this section is to demonstrate structured adversary thinking, techni
 ## Structure
 Each scenario follows a consistent documentation model:
 
-- `README.md` — Scenario overview and threat model
-- `lab-setup.md` — Environment and infrastructure description
-- `attack-flow.md` — Stage-by-stage attack narrative
-- `commands.md` — Execution details and operational context
-- `opsec.md` — Stealth decisions and risk tradeoffs
-- `detection.md` — Defensive visibility and detection opportunities
-- `lessons-learned.md` — Reflections and improvement points
+- `README.md`  Scenario overview and threat model
+- `lab-setup.md`  Environment and infrastructure description
+- `attack-flow.md`  Stage-by-stage attack narrative
+- `commands.md`  Execution details and operational context
+- `opsec.md` Stealth decisions and risk tradeoffs
+- `detection.md` Defensive visibility and detection opportunities
+- `lessons-learned.md`  Reflections and improvement points
 
 ⚠️ A `_template` directory is included as an internal blueprint used to create new scenarios and should not be treated as an actual attack simulation.
 
