@@ -1,34 +1,32 @@
-# Roadmap
+# Red Team Research
 
-## Phase 1 Foundations
+A curated collection of red team methodologies, tools, notes, labs, and research.
 
-- [x] Network Pentesting
-- [x] Vulnerability Assessment
-- [x] Web Security
+## Objectives
 
-## Phase 2 Infrastructure
+- Document offensive security techniques
+- Study adversary tradecraft
+- Build practical lab knowledge
+- Improve detection engineering understanding
 
-- [ ] Active Directory
-- [ ] Windows Privilege Escalation
-- [ ] Linux Privilege Escalation
-- [ ] Internal Network Assessment
+## Research Areas
 
-## Phase 3 Advanced Operations
+- Network Pentesting
+- Web Application Security
+- Wireless Security
+- Active Directory
+- Cloud Security
+- Malware Analysis
+- OSINT
 
-- [ ] Red Team Playbooks
-- [ ] Detection Evasion Research
-- [ ] Command and Control Concepts
-- [ ] Threat Emulation
+## Repository Structure
 
-## Phase 4 Specializations
+/docs
+/tools
+/labs
+/playbooks
+/reports
 
-- [ ] Cloud Security
-- [ ] Mobile Security
-- [ ] Container Security
-- [ ] Kubernetes Security
+## Disclaimer
 
-## Phase 5 Research
-
-- [ ] MITRE ATT&CK Mapping
-- [ ] Detection Engineering Notes
-- [ ] Purple Team Exercises
+This repository is intended for educational, research, and authorized security testing purposes only.
