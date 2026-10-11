@@ -1,4 +1,5 @@
-(red-team-research-/Red Team Research_ Neon Ocean Outpost(1).png)
+![Project Banner](red-team-research-/Red%20Team%20Research_%20Neon%20Ocean%20Outpost(1).png)
+
 
 # Red teaming research (Work in progress)
 
