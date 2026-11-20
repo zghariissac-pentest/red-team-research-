@@ -5,7 +5,7 @@
 
 This repository is my personal offensive security research project. I’m an 19‑year‑old learner passionate about red teaming, cyber operations, and understanding how real attacks work behind the scenes. Everything here comes from my own studies, experiments, and hands‑on practice.
 
-## 📌 What this repository is
+##  What this repository is
 
 A structured, long‑term learning project documenting every stage of a red team operation, including:
 
@@ -20,12 +20,12 @@ Clean, simple explanations without unnecessary complexity
 New learners can follow it in order.
 Experienced users can jump to any section as a reference.
 
-## 🚫 What this repository is not
+##  What this repository is not
 
 This project doesn't promote illegal activity.
 All material is for educational use only in controlled, legal environments.
 
-# 📂 Repository structure
+#  Repository structure
 
 | Folder                  | Purpose                               |
 | ----------------------- | ------------------------------------- |
@@ -41,7 +41,7 @@ All material is for educational use only in controlled, legal environments.
 | `Reporting/`            | Reports, templates, examples          |
 | `Appendices/`           | References, scripts, APT case studies |
 
-# 🎯 Why I built this
+#  Why I built this
 
 To have one place where I can:
 
@@ -59,12 +59,12 @@ Help others learning the same topics
 
 This repository will keep growing as my skills grow.
 
-## 🤝 Contributing
+##  Contributing
 
 This is mostly a personal research project, but suggestions are welcome.
 Open an issue or pull request with clear, simple, clean additions.
 
-## 📄 License
+##  License
 
 MIT License , you are free to use, modify, and share the content with attribution.
 
